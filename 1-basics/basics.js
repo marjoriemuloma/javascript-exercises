@@ -201,7 +201,7 @@ describe("basics", function() {
             // Look at that: secondArray also has the 4. This means
             // that secondArray and firstArray must be the same array.
             expect(secondArray).to.eql([1, 2, 3, 4]);
-        });
+        });ssss
     });
 
     describe("Create an actual copy of an array", function() {

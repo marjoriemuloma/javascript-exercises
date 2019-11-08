@@ -170,7 +170,7 @@ describe("functions", function() {
             // You're not allowed to define a new function here.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+            const result = context;
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext.call(context);
