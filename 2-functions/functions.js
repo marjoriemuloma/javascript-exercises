@@ -692,7 +692,7 @@ describe("functions", function() {
                     return function() {
                         this.doSomething();
                         this.doAnotherThing();
-                    };
+                    }.bind(this);
                 },
                 doSomething: function() {},
                 doAnotherThing: function() {}
