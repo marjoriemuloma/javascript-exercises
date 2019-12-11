@@ -289,7 +289,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function lastOccurrence(string) {
+                return array.lastIndexOf(string);
+            } 
             ////////////////////////////////////////////////////////////////////
 
             expect(lastOccurrence("a")).to.equal(4);
