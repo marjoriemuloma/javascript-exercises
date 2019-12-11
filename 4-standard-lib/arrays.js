@@ -30,7 +30,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function removeLastItem() {
+                return array.pop();
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(removeLastItem()).to.equal("d");
